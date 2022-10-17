@@ -1,0 +1,38 @@
+.CartDetail {
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    max-height: 1000rem;
+    bottom: 0rem;
+    padding-bottom: 200rem;
+    border-top-left-radius: 30rem;
+    border-top-right-radius: 30rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28rem 30rem;
+}
+
+.Header .titledes {
+    font-size: 30rem;
+    font-weight: 600;
+}
+
+.Header .Trash {
+    color: #8a8a8a;
+}
+
+.Header .Trash .icon {
+    color: #8a8a8a;
+    font-size: 30rem;
+    margin-right: 20rem;
+}
+
+.Meals {
+    overflow: auto;
+}

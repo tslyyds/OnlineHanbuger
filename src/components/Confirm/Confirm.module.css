@@ -1,0 +1,44 @@
+.Backdrop {
+    z-index: 9999;
+}
+
+.contain {
+    position: absolute;
+    border-radius: 50rem;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 600rem;
+    background-color: white;
+    height: 350rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contain .title {
+    font-size: 40rem;
+}
+
+.contain .btns {
+    width: 400rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contain .btns button {
+    width: 170rem;
+    border: none;
+    height: 70rem;
+    border-radius: 40rem;
+    background-color: orange;
+    font-size: 30rem;
+}
+
+.contain .btns .desc {
+    background: none;
+    border: 1px solid #ccc;
+}

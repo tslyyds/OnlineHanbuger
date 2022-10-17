@@ -1,0 +1,41 @@
+.Item {
+    display: flex;
+    padding: 20rem 0 0 0;
+    align-items: center;
+    margin: 10rem 0;
+}
+
+.img {
+    width: 180rem;
+}
+
+.info {
+    margin-left: 20rem;
+    margin-right: 10rem;
+    height: 100rem;
+    flex: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.info .btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 30rem;
+    font-weight: bold;
+    margin-bottom: 30rem;
+}
+
+.money {
+    font-size: 30rem;
+    font-weight: bold;
+}
+
+.money::before {
+    content: "￥";
+}

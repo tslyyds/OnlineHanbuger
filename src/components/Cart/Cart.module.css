@@ -1,0 +1,78 @@
+.Cart {
+    width: 700rem;
+    height: 100rem;
+    background-color: #0d1f30;
+    border-radius: 60rem;
+    position: fixed;
+    bottom: 30rem;
+    left: 0rem;
+    right: 0rem;
+    margin: auto;
+    z-index: 999;
+}
+
+.box {
+    position: absolute;
+    left: -10rem;
+    top: -20rem;
+    width: 180rem;
+    height: 100rem;
+}
+
+.box img {
+    width: 100%;
+}
+
+.box span {
+    position: absolute;
+    width: 40rem;
+    height: 40rem;
+    background: red;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40rem;
+    color: white;
+    font-size: 20rem;
+    font-weight: bold;
+    right: -9rem;
+}
+
+.moneyGo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100rem;
+}
+
+.money,
+.noMeal {
+    margin-left: 180rem;
+    font-size: 35rem;
+    color: white;
+    font-weight: bold;
+}
+
+.noMeal {
+    color: rgba(201, 206, 206, 0.512);
+}
+
+.money::before {
+    content: '￥';
+    font-size: 30rem;
+}
+
+.moneyGo .button,
+.moneyGo .Disabled {
+    height: 100rem;
+    width: 200rem;
+    border: none;
+    border-radius: 50rem;
+    background-color: #edc050;
+    font-size: 35rem;
+    font-weight: bold;
+}
+
+.moneyGo .Disabled {
+    color: #ccc;
+    background-color: #777;
+}

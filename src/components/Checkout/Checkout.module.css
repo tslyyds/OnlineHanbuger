@@ -1,0 +1,64 @@
+.payPage {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(217, 216, 216);
+    z-index: 1000;
+}
+
+.close {
+    color: black;
+    font-size: 30rem;
+    padding: 30rem;
+}
+
+.checkoutContain {
+    margin: 0 auto;
+    width: 90%;
+    background-color: white;
+    padding: 30rem;
+    border-radius: 50rem;
+}
+
+.checkoutContain .header {
+    font-size: 35rem;
+    font-weight: bold;
+    padding-bottom: 30rem;
+    border-bottom: 1rem solid rgb(228, 226, 226);
+}
+
+.checkoutContain .list {
+    position: relative;
+    padding-bottom: 30rem;
+    border-bottom: 1rem solid rgb(228, 226, 226);
+}
+
+.checkoutContain .list::before,
+.checkoutContain .list::after {
+    content: "";
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    background-color: rgb(228, 226, 226);
+    bottom: -10rem;
+    left: -36rem;
+}
+
+.payPage .checkoutContain .list::after {
+    left: auto;
+    right: -36rem;
+}
+
+.checkoutContain .footer {
+    text-align: end;
+    margin-top: 30rem;
+    font-size: 25rem;
+}
+
+.checkoutContain .footer span {
+    font-weight: bold;
+    font-size: 35rem;
+}
